@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# uses ssh to connect to your server using private key and user ubuntu
+chmod 600 ~/.ssh/school
+ssh -i ~/.ssh/school ubuntu@52.87.24.25
